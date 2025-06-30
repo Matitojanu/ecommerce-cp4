@@ -1,4 +1,4 @@
-package test.java.pl.januszkiewicz.creditCard;
+package pl.januszkiewicz.creditCard;
 
 
 import org.junit.jupiter.api.Test;

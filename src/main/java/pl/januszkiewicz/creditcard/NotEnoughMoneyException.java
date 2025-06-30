@@ -1,4 +1,4 @@
-package main.java.pl.januszkiewicz.creditcard;
+package pl.januszkiewicz.creditcard;
 
 public class NotEnoughMoneyException extends IllegalStateException {
 

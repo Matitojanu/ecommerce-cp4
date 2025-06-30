@@ -1,4 +1,4 @@
-package main.java.pl.januszkiewicz.productCatalog;
+package pl.januszkiewicz.ecommerce.productCatalog;
 
 public class InvalidPriceException extends IllegalStateException{
 }

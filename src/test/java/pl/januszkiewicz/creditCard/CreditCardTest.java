@@ -1,10 +1,10 @@
-package test.java.pl.januszkiewicz.creditCard;
+package pl.januszkiewicz.creditCard;
 
-import main.java.pl.januszkiewicz.creditcard.CreditCantBeAssignedTwiceException;
-import main.java.pl.januszkiewicz.creditcard.CreditCard;
-import main.java.pl.januszkiewicz.creditcard.NotEnoughMoneyException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import pl.januszkiewicz.creditcard.CreditCantBeAssignedTwiceException;
+import pl.januszkiewicz.creditcard.CreditCard;
+import pl.januszkiewicz.creditcard.NotEnoughMoneyException;
 
 import java.math.BigDecimal;
 

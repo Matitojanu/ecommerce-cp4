@@ -4,15 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d887f63f-0cfd-4492-8ffe-024be0ea6be2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/creditcard/CreditCard.java" afterDir="false" />
+    <list default="true" id="d887f63f-0cfd-4492-8ffe-024be0ea6be2" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/ecommerce/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/ecommerce/ProductCatalogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/ecommerce/productCatalog/ArrayListProductStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/ecommerce/productCatalog/HashMapProductStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/ecommerce/productCatalog/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/ecommerce/productCatalog/ProductCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/ecommerce/productCatalog/ProductStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/januszkiewicz/ecommerce/productCatalog/HashMapProductStorageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/januszkiewicz/ecommerce/productCatalog/ProductCatalogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/creditcard/CreditBelowThresholdException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/creditcard/CreditBelowThresholdException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/creditcard/CreditCantBeAssignedTwiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/creditcard/CreditCantBeAssignedTwiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/creditcard/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/creditcard/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/creditcard/NotEnoughMoneyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/creditcard/NotEnoughMoneyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/hello/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/productCatalog/InvalidPriceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/ecommerce/productCatalog/InvalidPriceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/productCatalog/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/januszkiewicz/productCatalog/ProductCatalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/januszkiewicz/creditCard/CreditCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/januszkiewicz/creditCard/CreditCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/januszkiewicz/creditCard/HelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/januszkiewicz/creditCard/HelloTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/januszkiewicz/creditCard/NumberRepresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/januszkiewicz/creditCard/NumberRepresentationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/januszkiewicz/productCatalog/ProductCatalogTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +47,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Exception" />
+        <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -30,9 +56,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Matitojanu&quot;
+  }
+}</component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="060f8d52-228b-4b19-950c-478141b19b8d" />
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Matitojanu/ecommerce-cp4.git&quot;,
+    &quot;accountId&quot;: &quot;060f8d52-228b-4b19-950c-478141b19b8d&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,21 +78,31 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2ttWh610mK8BA3Mz3rnci0ANgN0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.ProductCatalogTest.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.App.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/matij/IdeaProjects/ecommerce&quot;,
@@ -63,7 +111,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -72,7 +120,13 @@
       <recent name="main.java.pl.januszkiewicz.productCatalog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matij\IdeaProjects\ecommerce\src\main\resources\static\js" />
+      <recent name="C:\Users\matij\IdeaProjects\ecommerce\src\main" />
+      <recent name="C:\Users\matij\IdeaProjects\ecommerce\src" />
       <recent name="C:\Users\matij\IdeaProjects\ecommerce" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="main.java.pl.januszkiewicz.productCatalog" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="test.java.pl.januszkiewicz" />
@@ -81,8 +135,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -99,7 +153,25 @@
       <workItem from="1743947688177" duration="19000" />
       <workItem from="1743947918407" duration="600000" />
       <workItem from="1744092606790" duration="38000" />
+      <workItem from="1744092713088" duration="3504000" />
+      <workItem from="1744191776058" duration="4445000" />
+      <workItem from="1744796110500" duration="185000" />
+      <workItem from="1744796312216" duration="3150000" />
+      <workItem from="1746072210363" duration="640000" />
+      <workItem from="1747821171581" duration="595000" />
+      <workItem from="1747822274650" duration="1330000" />
+      <workItem from="1749120177864" duration="1005000" />
+      <workItem from="1751273977686" duration="10517000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1744093310976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744093310976</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +187,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
 </project>
